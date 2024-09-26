@@ -733,39 +733,6 @@ body.dark .work-links img {
   font-weight: 300;
 }
 
-.work-textbox h3,
-.work-text,
-.work-technologies,
-.work-links {
-  --delay: 0.2s;
-  animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
-  animation-play-state: paused;
-}
-
-.work-text {
-  animation-delay: var(--delay);
-}
-
-.work-technologies {
-  animation-delay: calc(var(--delay) * 1.5);
-}
-
-.work-links {
-  animation-delay: calc(var(--delay) * 2);
-}
-
-@keyframes slide-up {
-  from {
-    transform: translateY(45px);
-    opacity: 0;
-  }
-
-  to {
-    transform: none;
-    opacity: 1;
-  }
-}
-
 /* --------------------------------- */
 /* ----- Articles -----*/
 /* --------------------------------- */
